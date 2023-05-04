@@ -1,0 +1,58 @@
+body, html{
+    background: rgb(22, 22, 22);
+    height: 100%;
+}
+
+#title{
+    display: inline;
+    text-decoration: none;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+}
+.topper a:visited, .topper a:link{ /*Remover barra debaixo dos hyperlinks*/
+    text-decoration: none;
+}
+.topper{
+    background: black;
+    border-top: 50px solid #000;
+    margin: -50px;
+    height: 60px;
+}
+.logos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}
+h1{
+    margin: 100px auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.logo{
+    padding: 10px;
+    background: #000;
+    border-style: ridge;
+    border-color: white;
+    margin: 20px;
+    width: 600px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+}
+.logo:hover{  /*change color on hover*/
+    background-color: aqua;
+    opacity: 0.7;
+}
